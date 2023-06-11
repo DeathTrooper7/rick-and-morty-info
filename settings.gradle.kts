@@ -5,6 +5,7 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+@Suppress("UnstableApiUsage")
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -13,4 +14,9 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Rick and Morty Info"
-include ':app'
+include(":app")
+include(
+    ":rickandmortyinfo-data",
+    ":rickandmortyinfo-domain",
+    ":rickandmortyinfo-presentation"
+)

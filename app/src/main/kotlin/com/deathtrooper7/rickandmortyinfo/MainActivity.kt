@@ -1,7 +1,7 @@
 package com.deathtrooper7.rickandmortyinfo
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.deathtrooper7.rickandmortyinfo.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
